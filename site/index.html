@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Quiz Cloud e DevOps</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <main>
+    <p class="tag">Laboratorio de CI/CD</p>
+    <h1>Quiz Cloud e DevOps</h1>
+    <p>Escolha uma alternativa por pergunta. Cada acerto vale um ponto.</p>
+    <form id="quiz">
+      <div id="perguntas"></div>
+      <div class="acoes">
+        <button type="submit">Ver resultado</button>
+        <button type="reset" class="secundario">Reiniciar</button>
+      </div>
+    </form>
+    <p id="resultado" role="status" aria-live="polite"></p>
+  </main>
+  <script type="module" src="./app.js"></script>
+</body>
+</html>
