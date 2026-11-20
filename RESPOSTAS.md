@@ -18,7 +18,9 @@ Responda Q01 a Q22 em equipe. Cada integrante deve registrar suas respostas pró
 
 Se queremos automatizar os testes e disponibilizar o site por um endereço, qual responsabilidade cabe ao GitHub Actions e qual cabe ao GitHub Pages?
 
-Resposta
+Resposta:
+- GitHub Actions automatiza os testes verificando se o código funciona perfeitamente
+- GitHub Pages permite hospedar e publicar  
 
 Observação após a execução
 
@@ -26,11 +28,16 @@ Observação após a execução
 
 Que problema operacional pode ocorrer se cada integrante publicar uma cópia diferente do código sem registrar a versão utilizada?
 
-Resposta
+Resposta: Podem ocorrer diferentes versões. Uma pessoa publica uma atualização e a outra sobrepõe. Sem um devido controle não se tem uma ideia clara de qual a versão em produção.
 
-Observação após a execução
+Observação após a execução: É possível ter uma organização no GitHub por conta dos commits, sendo importante sempre utilizar commits claros, evitando commits genéricos, como "Bug resolvido."
+
 
 Evidência
+Repositório: https://github.com/oitavendaniel/quiz-devops-aula
+Branch: main
+Commit: 3bc5795 "Subindo os primeiros arquivos ao repositório"
+
 
 Anote no arquivo de respostas o link do repositório e o nome da branch.
 
@@ -40,15 +47,18 @@ Anote no arquivo de respostas o link do repositório e o nome da branch.
 
 Que informação o commit registra para que outra pessoa consiga localizar esta entrega depois?
 
-Resposta
+Resposta:
+Registra um identificador, data, autor e mensagem do que foi alterado na etapa.
 
 Observação após a execução
+Após realizar o commit, o Git gerou o identificador b3ea655, com a mensagem "Subindo os primeiros arquivos ao repositório".
 
 ### Q04
 
 O que pode acontecer com nosso pipeline se site/index.html ficar dentro de projeto_inicial/site/index.html no repositório?
 
-Resposta
+Resposta:
+Pode dar erro, pois está configurado para buscar na raiz. 
 
 Observação após a execução
 
