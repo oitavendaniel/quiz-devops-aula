@@ -12,6 +12,10 @@ Este projeto é um quiz de Cloud e DevOps que utiliza GitHub Actions para execut
 - O comando `npm test` executa os testes da função de pontuação.
 - O resultado da execução pode ser consultado na aba **Actions** do repositório.
 
+### Executar o workflow manualmente
+
+Na aba **Actions** do GitHub, selecione **CI do Quiz**, clique em **Run workflow**, escolha a branch `main` e confirme. Esse acionamento usa o evento `workflow_dispatch`, sem precisar criar um novo commit.
+
 ### Executar os testes localmente
 
 Com Node.js instalado, abra um terminal na raiz do projeto e execute:
