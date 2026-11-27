@@ -6,7 +6,7 @@ export function calcularPontuacao(respostas, gabarito) {
       respostas[i] !== undefined &&
       respostas[i] === gabarito[i]
     ) {
-      pontos += 2;
+      pontos += 1;
     }
   }
   return pontos;
